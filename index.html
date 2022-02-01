@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Szorzótábla jelölő</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Szorzótábla</h1>
+        <p>Sor = <input type="number" value="10" id="sor">
+            Oszlop = <input type="number" value="10" id="oszlop">
+            <input type="button" value="Új tábla" onclick="Ellenoriz()">
+        </p>
+        <div>
+            <output id = "i"></output>
+            x
+            <output id = "j"></output>
+            =
+            <output id = "e"></output>
+            <br>
+        </div>
+        <div>
+            <table id="doboz" class="center"></table>
+        </div>   
+    </div>
+</body>
+</html>
+<script src="szorzotabla.js"></script>
